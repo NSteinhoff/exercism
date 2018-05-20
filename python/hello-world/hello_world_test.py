@@ -6,6 +6,7 @@ import unittest
 import hello_world
 
 
+<<<<<<< Updated upstream
 class HelloWorldTests(unittest.TestCase):
 
     def test_hello_without_name(self):

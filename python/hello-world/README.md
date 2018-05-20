@@ -1,5 +1,6 @@
 # Hello World
 
+<<<<<<< Updated upstream
 Write a program that greets the user by name, or by saying "Hello, World!" if no name is given.
 
 ["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is the traditional first program for beginning programming in a new language.
@@ -37,6 +38,21 @@ It will also provide you with a safety net to explore other solutions without br
 Submissions are encouraged to be general, within reason. Having said that, it's also important not to over-engineer a solution.
 
 It's important to remember that the goal is to make code as expressive and readable as we can. However, solutions to the hello-world exercise will not be reviewed by a person, but by rikki- the robot, who will offer an encouraging word.
+=======
+The classical introductory exercise. Just say "Hello, World!".
+
+["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
+the traditional first program for beginning programming in a new language
+or environment.
+
+The objectives are simple:
+
+- Write a function that returns the string "Hello, World!".
+- Run the test suite and make sure that it succeeds.
+- Submit your solution and check it at the website.
+
+If everything goes well, you will be ready to fetch your first real exercise.
+>>>>>>> Stashed changes
 
 ### Submitting Exercises
 
@@ -50,4 +66,12 @@ please see the [help page](http://exercism.io/languages/python).
 
 ## Source
 
+<<<<<<< Updated upstream
 This is a program to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+=======
+This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+
+## Submitting Incomplete Solutions
+It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+
+>>>>>>> Stashed changes
