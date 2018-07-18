@@ -22,6 +22,7 @@ You will find the type signature for `hello` already in place,
 but it is up to you to define the function.
 
 
+
 ## Getting Started
 
 For installation and learning resources, refer to the
@@ -68,7 +69,7 @@ stack ghci
 
 ## Feedback, Issues, Pull Requests
 
-The [exercism/xhaskell](https://github.com/exercism/xhaskell) repository on
+The [exercism/haskell](https://github.com/exercism/haskell) repository on
 GitHub is the home for all of the Haskell exercises.
 
 If you have feedback about an exercise, or want to help implementing a new
@@ -80,4 +81,3 @@ This is an exercise to introduce users to using Exercism [http://en.wikipedia.or
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
