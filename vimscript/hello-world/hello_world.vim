@@ -14,7 +14,6 @@
 "
 function! Hello(...) abort
   let name = (a:0 == 1 ? a:1 : 'World')
-
   " your implementation goes here
-
+  return 'Hello, ' . name . '!'
 endfunction
