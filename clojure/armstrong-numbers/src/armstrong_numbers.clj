@@ -3,14 +3,15 @@
 
 
 (defn exp [x n]
-  (reduce * (take n (repeat x))))
+  (reduce * (repeat n x)))
 
 
 (defn num->digits [num]
-  (let [strg (str num)
-        chrs (split strg #"")
-        digits (map read-string chrs)]
-    digits))
+  (loop [x num
+         xs '()]
+    (if (< x 10)
+      (conj xs x)
+      (recur (int (/ x 10)) (conj xs (rem x 10))))))
 
 
 (defn armstrong? [num] ;; <- arglist goes here
