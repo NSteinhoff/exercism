@@ -1,0 +1,25 @@
+(require '[etl])
+etl/transform
+(doc require)
+{1 [:a :b :c] 2 [:d :e :f]}
+(for [[k vs] {1 [:a :b :c] 2 [:d :e :f]} v vs] v)
+(for [[k vs] {1 [:a :b :c] 2 [:d :e :f]} v vs] [v k])
+(into {} (for [[k vs] {1 [:a :b :c] 2 [:d :e :f]} v vs] [v k]))
+(defn transform [source] ;; <- arglist goes here
+  (into {} (for [[k vs] source
+                 v      vs]
+             [v k])))
+(transform {1 [:a :b :c] 3 [:g :s]})
+(transform {1 ["world" :b :c] 3 [:g :s]})
+(doc lower)
+(apropos lower)
+(apropos "lower")
+(doc lower-case)
+(clojure.string/lower-case "A")
+(keys (ns-publics 'user))
+(all-ns)
+(apropos "pretty")
+(doc *print-pretty*)
+(doc clojure.pprint/*print-pretty*)
+(def clojure.pprint/*print-pretty* true)
+(ns-map 'user)
