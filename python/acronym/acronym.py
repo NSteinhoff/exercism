@@ -1,11 +1,9 @@
-import re
+from itertools import groupby
 
 
 def abbreviate(words):
-    # Match the first letter following the beginning of the string
-    # or following anything that is not a letter or apostrophe.
-    pattern = re.compile(r"(^|[^A-Z'])([A-Z])")
-
-    matches = pattern.findall(words.upper())
-
-    return ''.join(letter for seperator, letter in matches)
+    return "".join(
+        next(g).upper()
+        for k, g in groupby(words, lambda c: c.isalpha() or c == "'")
+        if k
+    )
